@@ -1,0 +1,19 @@
+{
+  "name": "h7ai",
+  "version": "1.0.0",
+  "description": "A node-js based file indexer for HTTP web servers",
+  "repository": "https://github.com/sangwon090/h7ai.git",
+  "author": "Sangwon Ryu <bdboy090@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/h5ai.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "typescript": "^3.9.3",
+    "ts-node": "^8.10.2",
+    "express": "^4.17.1",
+    "@types/node": "^14.0.5",
+    "@types/express": "^4.17.6"
+  }
+}
