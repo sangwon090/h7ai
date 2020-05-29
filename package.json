@@ -6,8 +6,8 @@
   "author": "Sangwon Ryu <bdboy090@naver.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/h5ai.js",
-    "build": "tsc -p ."
+    "start": "tsc && node ./dist/h5ai.js",
+    "build": "tsc"
   },
   "dependencies": {
     "typescript": "^3.9.3",
